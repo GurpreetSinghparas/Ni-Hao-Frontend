@@ -1,11 +1,22 @@
-// import logo from './logo.svg';
-import './App.css';
+import { lazy, Suspense } from 'react';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+// Css
+import './lib/niHaoCss';
+import store from './store';
+
+const App = lazy(() => import('../src/container/app'));
 
 const MainApp = () => {
   return (
-    <div>
-      <h1>Ni Hao World!!</h1>
-    </div>
+    <Suspense fallback={<div />}>
+      <Provider store={store}>
+        <Router>
+          <App />
+        </Router>
+      </Provider>
+    </Suspense>
   );
 };
 

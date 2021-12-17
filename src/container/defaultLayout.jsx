@@ -2,6 +2,8 @@ import { Routes, Route } from 'react-router-dom';
 
 import { IndexPage } from '@components/asyncComponents';
 import routerServices from '../services/_routerServices';
+import { Fragment } from 'react';
+import OurCousesWithoutLogin from '../routes/ourCoursesWithoutLogin';
 
 const DefaultLayout = () => {
   const renderRoutes = () => {
@@ -13,12 +15,13 @@ const DefaultLayout = () => {
   };
 
   return (
-    <div>
+    <Fragment>
       <Routes>
         <Route path="/" element={<IndexPage />} />
+        <Route path="/our-courses" element={<OurCousesWithoutLogin />} />
         {renderRoutes()}
       </Routes>
-    </div>
+    </Fragment>
   );
 };
 

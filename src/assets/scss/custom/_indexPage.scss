@@ -1,9 +1,214 @@
-.index {
-  width: 1200px;
-  margin: auto;
+.banner_bg {
+  background: #f9fdff;
+  height: calc(100vh - 60px);
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 400px;
-  background-color: aliceblue;
+
+  &::before {
+    content: '';
+    background: url('../../images/banner_bg.png') no-repeat;
+    height: -webkit-fill-available;
+    background-position: right;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: auto;
+  }
+}
+
+.banner_text h1 {
+  font-size: 34px;
+}
+
+.home_input_group input {
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+.home_input_group a,
+.home_input_group a:hover {
+  background: #ff554b;
+  color: white;
+  border-color: #ff554b;
+  padding: 10px 20px;
+  border-radius: 0px !important;
+}
+
+.home_input_group {
+  box-shadow: 0px 1px 20px #0000000f;
+}
+
+.custom_nav_tabs {
+  h4 {
+    color: #005182;
+  }
+
+  span {
+    background: #dcdcdc17;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+  .active {
+    background: white !important;
+    border-radius: 0px;
+    box-shadow: 0px 10px 27px #0000000a;
+    h4 {
+      color: #0a9ef8;
+      font-family: KumbhSans-Bold;
+    }
+    span {
+      background: #0a9ef81a !important;
+    }
+
+    .tab svg path {
+      stroke: #0a9ef8;
+    }
+
+    .tab2 svg path {
+      fill: #0a9ef8;
+    }
+
+    .tab3 svg path {
+      stroke: #0a9ef8;
+    }
+
+    .tab4 svg path {
+      fill: #0a9ef8;
+    }
+
+    .tab5 svg path {
+      stroke: #0a9ef8;
+    }
+  }
+
+  .nav-item {
+    margin-bottom: 20px;
+    .nav-link {
+      padding: 15px;
+      background: white;
+      transition: all 0.4s;
+    }
+  }
+}
+
+.plan_card {
+  background: #f0f9ff;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.plan_nav_tabs .nav-link {
+  color: #707070;
+  border-radius: 50px;
+  padding: 12px 40px;
+}
+.plan_nav_tabs {
+  width: max-content;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0px 1px 8px #0000001c;
+  display: inline-flex;
+  margin: 0 auto;
+}
+.plan_nav_tabs .nav-link.active {
+  color: #fff;
+  background-color: #67dd9c !important;
+  border-radius: 50px !important;
+  font-family: KumbhSans-Bold;
+}
+
+span.checkbox_tick {
+  border: 1px solid #0a9ef8;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+span.checkbox_tick svg {
+  display: none;
+}
+
+.plan_right_side label {
+  background: white;
+  border: 1px solid #cecece;
+  padding: 20px;
+  border-radius: 10px;
+}
+.plan_right_side .form-check-input:checked + .form-check-label {
+  background: #0a9ef8 !important;
+  transition: all 0.4s;
+  border-color: #0a9ef8 !important;
+  color: white !important;
+}
+.plan_right_side .checkbox_tick2 {
+  border: 1px solid #707070;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: relative;
+  top: -1px;
+}
+.plan_right_side svg {
+  display: flex !important;
+  width: 12px;
+  height: 12px;
+  transition: all 0.5s;
+}
+.plan_right_side .form-check-input:checked + .form-check-label .checkbox_tick2 svg path {
+  fill: #67dd9c !important;
+}
+.plan_right_side .form-check-input:checked + .form-check-label .checkbox_tick2 {
+  background: #fff !important;
+  border-color: #fff !important;
+}
+.plan_right_side .plan_charges {
+  font-size: 35px;
+  font-family: KumbhSans-Bold;
+}
+.plan_right_side .form-check-input:checked + .form-check-label .text_blue {
+  color: white !important;
+}
+.plan_savings {
+  background: #fef0ef;
+  color: #f66962;
+  padding: 7px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.plan_right_side {
+  width: 80%;
+}
+.plan_right_side label {
+  margin-bottom: 20px;
+}
+
+.organisation_bg {
+  background: url('../../images/organisation_bg.png') no-repeat;
+  height: -webkit-fill-available;
+  background-position: bottom;
+  background-size: cover;
+  .mt-8 {
+    margin-top: 10%;
+  }
+  .organisation_bg_section img {
+    border-radius: 50%;
+  }
+}
+
+.banner_text h1 {
+  font-size: 34px;
 }

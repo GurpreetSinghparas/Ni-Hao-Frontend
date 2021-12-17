@@ -1,0 +1,275 @@
+@import './variable';
+
+@font-face {
+  font-family: KumbhSans-Light;
+  src: url('../../fonts/KumbhSans-Light.ttf');
+  //   src: url(../fonts/KumbhSans-Light.ttf);
+}
+@font-face {
+  font-family: KumbhSans-Regular;
+  src: url('../../fonts/KumbhSans-Regular.ttf');
+
+  //   src: url(../fonts/KumbhSans-Regular.ttf);
+}
+@font-face {
+  font-family: KumbhSans-Bold;
+  src: url('../../fonts/KumbhSans-Bold.ttf');
+
+  //   src: url(../fonts/KumbhSans-Bold.ttf);
+}
+@font-face {
+  font-family: Chelsea-Regular;
+  src: url('../../fonts/Chelsea-Regular.ttf');
+
+  //   src: url(../fonts/Chelsea-Regular.ttf);
+}
+
+body {
+  font-family: KumbhSans-Regular;
+  color: #222222;
+}
+
+// Font Classes
+.f_12 {
+  font-size: 12px !important;
+}
+.f_14 {
+  font-size: 14px !important;
+}
+.f_15 {
+  font-size: 15px !important;
+}
+.f_16 {
+  font-size: 16px !important;
+}
+.f_18 {
+  font-size: 18px !important;
+}
+.f_20 {
+  font-size: 20px !important;
+}
+.f_22 {
+  font-size: 22px !important;
+}
+.f_24 {
+  font-size: 24px !important;
+}
+.f_26 {
+  font-size: 26px !important;
+}
+.f_28 {
+  font-size: 28px !important;
+}
+.f_30 {
+  font-size: 30px !important;
+}
+.f_32 {
+  font-size: 32px !important;
+}
+.f_54 {
+  font-size: 54px !important;
+}
+
+.fw_light {
+  font-family: KumbhSans-Light !important;
+}
+.fw_regular {
+  font-family: KumbhSans-Regular !important;
+}
+.fw_bold {
+  font-family: KumbhSans-Bold !important;
+}
+.fw_che_regular {
+  font-family: Chelsea-Regular !important;
+}
+
+:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.section_padding {
+  padding: 80px 0;
+}
+
+.theme_btn,
+.theme_btn:hover {
+  background: #ff554b;
+  color: white;
+  border-color: #ff554b;
+  padding: 10px 20px;
+  border-radius: 0px;
+  box-shadow: 0px 4px 15px #98070026;
+  font-size: 18px;
+}
+
+.bg_light_blue {
+  background-color: $light-blue;
+}
+
+.text_blue2,
+.text_blue2:hover {
+  color: #0a9ef8 !important;
+}
+
+.text_blue3,
+.text_blue3:hover {
+  color: #2c6384 !important;
+}
+
+.text_gray,
+.text_gray {
+  color: #707070 !important;
+}
+
+.text_gray2,
+.text_gray2 {
+  color: #656565 !important;
+}
+
+.text_green {
+  color: #67dd9c;
+}
+
+.text_black,
+.text_black:hover {
+  color: #707070 !important;
+}
+
+.text_blue,
+.text_blue:hover {
+  color: #005182 !important;
+}
+
+.text_dark,
+.text_dark:hover {
+  color: #303030 !important;
+}
+
+.text_skyblue,
+.text_skyblue:hover {
+  color: #009ef8;
+}
+
+.text_lightblue,
+.text_lightblue:hover {
+  color: #6e9ebc;
+}
+
+// custom nav
+.custom_nav .nav-link {
+  color: #005182 !important;
+  font-family: KumbhSans-Regular !important;
+  opacity: 1 !important;
+}
+
+.login_btn,
+.login_btn:hover {
+  background: white;
+  color: #0a9ef8;
+  border-color: #0a9ef8;
+  width: 120px;
+  border-radius: 3px;
+}
+
+.login_btn,
+.login_btn:hover {
+  background: white;
+  color: #0a9ef8;
+  border-color: #0a9ef8;
+  width: 120px;
+  border-radius: 3px;
+}
+.signup_btn .btn,
+.signup_btn .btn:hover {
+  background: #67dd9c;
+  border-color: #67dd9c;
+  color: white;
+  width: 120px;
+  border-radius: 3px;
+  box-shadow: 0px 6px 9px #16a45617;
+  height: 100%;
+}
+.signup_btn .dropdown-item,
+.dropdown-item:hover {
+  font-size: 16px;
+  color: #777777;
+  border-bottom: 1px solid #f6f6f6;
+  padding: 8px 15px 6px 15px;
+  background: white;
+}
+.border_bottom_none {
+  border-bottom: none !important;
+}
+.signup_btn .dropdown-menu.show {
+  display: block;
+  border: none;
+  box-shadow: 0px 4px 6px #00000014;
+  border-radius: 5px;
+  padding: 1px;
+}
+
+// Form Check
+.form-check-input:checked + .form-check-label .checkbox_tick svg {
+  display: flex !important;
+  width: 12px;
+  height: 12px;
+  transition: all 0.5s;
+}
+.form-check-input:checked + .form-check-label .checkbox_tick {
+  background: #0a9ef8 !important;
+  transition: all 0.4s;
+}
+.form-check {
+  label {
+    cursor: pointer;
+    margin-bottom: 32px;
+    transition: all 0.4s;
+  }
+}
+.form-check-input:checked + .form-check-label {
+  font-family: KumbhSans-Bold;
+  transition: all 0.4s;
+}
+
+// common social button
+.social_btns span {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-right: 12px;
+  border: 2px solid white;
+}
+.google_btn {
+  background: #ea4335;
+}
+.fb_btn {
+  background: #496fed;
+}
+.apple_btn {
+  background: #000000;
+}
+.insta_btn {
+  background: rgb(186, 0, 176);
+  background: linear-gradient(143deg, rgba(186, 0, 176, 1) 0%, rgba(254, 197, 31, 1) 100%);
+}
+.linkedin_btn {
+  background: #067fbf;
+}
+.twitter_btn {
+  background: #009ff4;
+}
+.social_btns span svg {
+  width: 15px;
+  height: 15px;
+}
+
+// custom lang
+.custom_lang_select {
+  border: none;
+  color: #656565;
+  width: 110px;
+}

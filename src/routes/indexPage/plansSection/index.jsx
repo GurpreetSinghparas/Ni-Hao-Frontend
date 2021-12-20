@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // common components imports
 import Button from '@commonElements/button';
@@ -158,10 +159,10 @@ const Plans = () => {
           </div>
         </div>
         <div className="d-block text-center">
-          <a
+          <Link
             className="btn btn-outline-secondary fw_bold theme_btn ms-auto "
             role="button"
-            href="signup.html"
+            to="/signup"
           >
             Sign Up
             <span className="ms-4">
@@ -179,7 +180,7 @@ const Plans = () => {
                 </g>
               </svg>
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

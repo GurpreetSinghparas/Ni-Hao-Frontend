@@ -1,11 +1,28 @@
-import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import PropsTypes from 'prop-types';
 import Logo from '@assets/images/ni-hao-logo.png';
 import Button from '../elements/button';
 
-const Header = () => {
+const Header = ({ className }) => {
+  const { pathname } = useLocation();
+
+  const myFunction = () => {
+    const navbar = document.querySelector('#navbar');
+    if (navbar !== null) {
+      if (window.pageYOffset > 80) {
+        navbar.classList.add('nav_active');
+      } else {
+        navbar.classList.remove('nav_active');
+      }
+    }
+  };
+  useEffect(() => {
+    window.addEventListener('scroll', () => myFunction());
+  }, []);
   return (
-    <header className="fixed-top">
-      <nav className="navbar navbar-expand-lg navbar-light bg-none">
+    <header className={`${className ? className : 'fixed-top'}`}>
+      <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-none">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img src={Logo} alt="img" className="img-fluid" />
@@ -24,7 +41,14 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 custom_nav">
               <li className="nav-item">
-                <Link to="/our-courses" className="nav-link pe-4">
+                <Link
+                  to="/our-courses"
+                  className={`nav-link pe-4 ${
+                    pathname === '/our-courses' || pathname === '/signup' || pathname === '/login'
+                      ? 'active'
+                      : ''
+                  }`}
+                >
                   Our Courses
                 </Link>
               </li>
@@ -90,6 +114,10 @@ const Header = () => {
       </nav>
     </header>
   );
+};
+
+Header.propTypes = {
+  className: PropsTypes.string,
 };
 
 export default Header;

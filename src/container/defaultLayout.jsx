@@ -1,9 +1,8 @@
+import { Fragment } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import { IndexPage } from '@components/asyncComponents';
+import { IndexPage, OurCousesWithoutLogin } from '@components/asyncComponents';
 import routerServices from '../services/_routerServices';
-import { Fragment } from 'react';
-import OurCousesWithoutLogin from '../routes/ourCoursesWithoutLogin';
 
 const DefaultLayout = () => {
   const renderRoutes = () => {

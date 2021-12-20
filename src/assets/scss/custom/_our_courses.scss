@@ -1,0 +1,126 @@
+.course_card2 {
+  background: #437a53;
+  border-radius: 12px;
+  height: 200px;
+}
+.course_card3 {
+  background: #8790fb;
+  border-radius: 12px;
+  height: 200px;
+}
+.course_card4 {
+  background: #ffb5b6;
+  border-radius: 12px;
+  height: 200px;
+}
+.course_card5 {
+  background: #ffc754;
+  border-radius: 12px;
+  height: 200px;
+}
+
+.course_card4 .progress-bar,
+.course_card5 .progress-bar {
+  background: #ff847e;
+}
+
+.complete_icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.course_card_curve:before,
+.course_card_curve2:before,
+.course_card_curve3:before,
+.course_card_curve4:before,
+.course_card_curve5:before,
+.course_card_curve6:before,
+.course_card_curve7:before,
+.course_card_curve8:before,
+.course_card_curve9:before,
+.course_card_curve10:before,
+.course_card_curve11:before,
+.course_card_curve12:before {
+  content: '';
+  position: absolute;
+  background-image: url('../../images/course_curve.png');
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  z-index: -9;
+}
+
+.course_card_curve {
+  background: #ffc754;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve2 {
+  background: #8790fb;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve3 {
+  background: #437a53;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve4 {
+  background: #ffb5b6;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve5 {
+  background: #0c6a9a;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve6 {
+  background: #ea3d67;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve7 {
+  background: #e06c00;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve8 {
+  background: #7046c3;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve9 {
+  background: #3b70d5;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve10 {
+  background: #f47458;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve11 {
+  background: #ffb5b6;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}
+.course_card_curve12 {
+  background: #405a9b;
+  border-radius: 12px;
+  height: 200px;
+  z-index: 99;
+}

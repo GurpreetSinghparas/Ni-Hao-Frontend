@@ -6,7 +6,7 @@ import Input from '@commonElements/inputField';
 
 import loginImg from '@assets/images/login_img.png';
 
-const Login = () => {
+const SignUp = () => {
   return (
     <Fragment>
       <Header className="welcome_header_bg" />
@@ -31,7 +31,7 @@ const Login = () => {
                 <div className="login_box_height">
                   <div className="login_text">
                     <h4 className="fw_bold f_22 mb-4">
-                      Welcome back to{' '}
+                      Sign Up. Speak Out. Make Your Future With
                       <span className="fw_che_regular text_blue2">ni-hao-world</span>
                     </h4>
                     <form action="" className="custom_form">
@@ -42,7 +42,7 @@ const Login = () => {
                           id="floatingInput"
                           placeholder="name@example.com"
                         />
-                        <label for="floatingInput">Username/Email</label>
+                        <label htmlFor="floatingInput">Username/Email</label>
                       </div>
                       <div className="form-floating mb-4">
                         <Input
@@ -59,27 +59,60 @@ const Login = () => {
                                 data-name="Path 25285"
                                 d="M13.52,22c5.153,0,8.52,4.88,8.52,4.88s-3.366,4.88-8.52,4.88S5,26.88,5,26.88,8.366,22,13.52,22Zm0,1.394a3.644,3.644,0,0,1,3.786,3.486,3.644,3.644,0,0,1-3.786,3.486A3.644,3.644,0,0,1,9.733,26.88a3.644,3.644,0,0,1,3.786-3.486Zm0,1.569a1.924,1.924,0,1,1,0,3.834,1.924,1.924,0,1,1,0-3.834Z"
                                 transform="translate(-5 -22)"
-                                fill-rule="evenodd"
+                                fillRule="evenodd"
                                 opacity="0.61"
                               />
                             </g>
                           </svg>
                         </span>
-                        <label for="floatingPassword">Password</label>
+                        <label htmlFor="floatingPassword">Password</label>
                       </div>
-                      <Link
-                        to="/forgot-password"
-                        className="text_gray2 f_14 ms-auto d-block text-end mb-3"
-                      >
-                        Forgot Password?
-                      </Link>
+                      <div className="form-floating mb-4">
+                        <Input
+                          type="password"
+                          className="form-control"
+                          id="floatingPassword"
+                          placeholder="Password"
+                        />
+                        <span className="eye_icon">
+                          <svg width="17.039" height="9.76" viewBox="0 0 17.039 9.76">
+                            <g id="noun_Eye_2885546" opacity="0.56">
+                              <path
+                                id="Path_25285"
+                                data-name="Path 25285"
+                                d="M13.52,22c5.153,0,8.52,4.88,8.52,4.88s-3.366,4.88-8.52,4.88S5,26.88,5,26.88,8.366,22,13.52,22Zm0,1.394a3.644,3.644,0,0,1,3.786,3.486,3.644,3.644,0,0,1-3.786,3.486A3.644,3.644,0,0,1,9.733,26.88a3.644,3.644,0,0,1,3.786-3.486Zm0,1.569a1.924,1.924,0,1,1,0,3.834,1.924,1.924,0,1,1,0-3.834Z"
+                                transform="translate(-5 -22)"
+                                fillRule="evenodd"
+                                opacity="0.61"
+                              />
+                            </g>
+                          </svg>
+                        </span>
+                        <label htmlFor="floatingPassword">Confirm Password</label>
+                      </div>
+                      <div className="form-check d-flex">
+                        <Input
+                          className="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckDefault"
+                        />
+                        <label
+                          className="form-check-label text_gray2 fw_regular mb-3 ms-3"
+                          htmlFor="flexCheckDefault"
+                        >
+                          By continue, I confirm that I have read and agree to the{' '}
+                          <Link to="/terms&conditions"> Terms and Conditions </Link> and{' '}
+                          <Link to="/privacy-policy"> Privacy Policy. </Link>
+                        </label>
+                      </div>
                       <Link
                         to="/home"
                         role="button"
                         className="btn btn-primary fw_bold f_16 signup_blue_btn w-100 mb-3"
                         type="button"
                       >
-                        LOGIN
+                        CREATE ACCOUNT
                       </Link>
                       <div className="or_lines position-relative">
                         <p className="f_14 text_blue2 text-center mb-0">Or</p>
@@ -118,7 +151,7 @@ const Login = () => {
                             fill="#fff"
                           ></path>
                         </svg>
-                      </span>{' '}
+                      </span>
                       Google
                     </button>
                     <button type="button" className="btn btn-primary login_fb_btn me-3">
@@ -136,7 +169,7 @@ const Login = () => {
                             fill="#fff"
                           ></path>
                         </svg>
-                      </span>{' '}
+                      </span>
                       Facebook
                     </button>
                     <button type="button" className="btn btn-primary login_apple_btn me-3">
@@ -163,7 +196,7 @@ const Login = () => {
                             fill="#fff"
                           ></path>
                         </svg>
-                      </span>{' '}
+                      </span>
                       Apple
                     </button>
                     <button type="button" className="btn btn-primary login_linkedin_btn">
@@ -195,12 +228,12 @@ const Login = () => {
                             fill="#fff"
                           ></path>
                         </svg>
-                      </span>{' '}
+                      </span>
                       Linkedin
                     </button>
                   </div>
                   <p className="f_14 text-center mt-4 mb-0 login_sign_text">
-                    New To Ni-Hao-World ?<Link to="/signup"> Sign Up</Link>
+                    Not New To Ni-Hao-World? <Link to="/login">Log In</Link>
                   </p>
                 </div>
               </div>
@@ -212,4 +245,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;

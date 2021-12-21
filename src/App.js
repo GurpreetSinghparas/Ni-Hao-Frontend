@@ -4,7 +4,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 // Css
 import './lib/niHaoCss';
-// store
 import store from './store';
 
 const App = lazy(() => import('../src/container/app'));

@@ -20,6 +20,20 @@ const Header = ({ className }) => {
   useEffect(() => {
     window.addEventListener('scroll', () => myFunction());
   }, []);
+
+  const renderActiveClass = () => {
+    if (
+      pathname === '/our-courses' ||
+      pathname === '/signup' ||
+      pathname === '/login' ||
+      pathname === '/welcome' ||
+      pathname === '/signup_company' ||
+      pathname === '/signup_student'
+    )
+      return 'active';
+    return '';
+  };
+
   return (
     <header className={`${className ? className : 'fixed-top'}`}>
       <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-none">
@@ -41,14 +55,7 @@ const Header = ({ className }) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 custom_nav">
               <li className="nav-item">
-                <Link
-                  to="/our-courses"
-                  className={`nav-link pe-4 ${
-                    pathname === '/our-courses' || pathname === '/signup' || pathname === '/login'
-                      ? 'active'
-                      : ''
-                  }`}
-                >
+                <Link to="/our-courses" className={`nav-link pe-4 ${renderActiveClass()}`}>
                   Our Courses
                 </Link>
               </li>
@@ -58,7 +65,10 @@ const Header = ({ className }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/kids" className="nav-link">
+                <Link
+                  to="/kids"
+                  className={`nav-link ${pathname === '/welcome' ? 'text-uppercase' : ''}`}
+                >
                   For Kids
                 </Link>
               </li>

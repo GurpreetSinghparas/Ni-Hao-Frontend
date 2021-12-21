@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 // common components imports
 import Header from '@components/common/header';
-import Footer from '@components/common/footer';
+import IndexFooter from '@components/common/indexFooter';
 
 // components imports
 import PrivateTutor from './privateTutorSection';
@@ -30,7 +30,7 @@ const IndexPage = () => {
       {/* <!-- Organisation section --> */}
       <Organization />
 
-      <Footer />
+      <IndexFooter />
     </Fragment>
   );
 };

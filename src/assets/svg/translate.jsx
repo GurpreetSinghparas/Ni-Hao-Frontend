@@ -16,7 +16,7 @@ const TranslateIcon = () => (
         transform="translate(51 11)"
         fill="#fff"
         stroke="#414143"
-        stroke-width="1"
+        strokeWidth="1"
       >
         <rect width="124" height="124" rx="62" stroke="none" />
         <rect x="0.5" y="0.5" width="123" height="123" rx="61.5" fill="none" />

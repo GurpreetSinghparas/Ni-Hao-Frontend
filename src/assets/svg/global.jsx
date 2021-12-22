@@ -16,7 +16,7 @@ const GlobalIcon = () => (
         transform="translate(98.119 13)"
         fill="#fff"
         stroke="#414143"
-        stroke-width="1"
+        strokeWidth="1"
       >
         <rect width="124" height="124" rx="62" stroke="none" />
         <rect x="0.5" y="0.5" width="123" height="123" rx="61.5" fill="none" />
@@ -28,7 +28,7 @@ const GlobalIcon = () => (
         transform="translate(115.419 30.57)"
         fill="#414143"
         stroke="#fff"
-        stroke-width="1"
+        strokeWidth="1"
       />
     </g>
   </svg>

@@ -13,9 +13,9 @@ const UserIcon = () => (
         transform="translate(0 -10.402)"
         fill="none"
         stroke="#009ff4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
       />
       <path
         id="Path_44144"
@@ -24,9 +24,9 @@ const UserIcon = () => (
         transform="translate(-3.467 0)"
         fill="none"
         stroke="#009ff4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
       />
     </g>
   </svg>

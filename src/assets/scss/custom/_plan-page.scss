@@ -1,0 +1,88 @@
+.plans_box {
+  background: white;
+  padding: 30px 0;
+  border-radius: 30px;
+  box-shadow: 0px -1px 20px #00000014;
+}
+.plans_box select {
+  background-color: #ebf8ff;
+  border-color: #bbe4fd !important;
+  width: 100%;
+  height: 60px;
+  color: #005182 !important;
+  font-family: 'KumbhSans-Bold';
+  font-size: 18px;
+}
+.plans_box option {
+  font-size: 16px !important;
+  font-family: KumbhSans-Regular !important;
+}
+
+.commint_level {
+  display: flex;
+  justify-content: space-around;
+  background: red;
+  background-color: #ebf8ff;
+  border-color: #bbe4fd !important;
+  color: #005182 !important;
+  border-radius: 8px;
+  align-items: center;
+  font-size: 18px;
+}
+.commint_level label {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.commint_level .form-check {
+  flex-grow: 1;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.commint_level .form-check-input:checked + .form-check-label {
+  font-family: KumbhSans-Bold;
+  transition: all 0.4s;
+  background: #009ff4;
+  border-radius: 8px !important;
+  color: white !important;
+}
+
+.discount_text {
+  background: #fef0ef;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #f66962;
+  margin-left: 10px;
+  position: relative;
+  top: -2px;
+}
+
+.commint_level .form-check-input:checked .discount_text + .form-check-label .discount_text {
+  background: red !important;
+}
+
+.plan_price_estimate,
+.plan_price_estimate:hover {
+  border: 1px solid #bbe4fd;
+  background: white !important;
+  border-radius: 10px;
+  color: #005182;
+  font-size: 18px;
+}
+
+.plan_action_btn button,
+.plan_action_btn a {
+  padding: 16px 10px !important;
+  width: 48% !important;
+}
+
+span.next_btn svg {
+  width: 25px;
+  height: 25px;
+  margin-left: 8px;
+}

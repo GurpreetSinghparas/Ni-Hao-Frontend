@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 // common components imports
 import Header from '@common/header';
 import Footer from '@common/footer';
+import MessageUs from '@common/messageUs';
 
 // image imports
 import aboutUs from '@images/about-us-img.png';
@@ -25,7 +26,6 @@ import ContactIcon from '@svg/contact';
 import CommentIcon from '@svg/comment';
 import UserIcon from '@svg/user';
 import CalendarAboutIcon from '@svg/calendarAbout';
-import MessageUs from '../../components/common/messageUs';
 
 const AboutUs = () => {
   useEffect(() => {
@@ -191,35 +191,35 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section class="section_padding bg_light_blue">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="about_stat text-center">
+      <section className="section_padding bg_light_blue">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-4">
+              <div className="about_stat text-center">
                 <span>
                   <TranslateIcon />
                 </span>
-                <h2 class="fw_bold text_blue3 f_30">130 +</h2>
+                <h2 className="fw_bold text_blue3 f_30">130 +</h2>
                 <p>Language available to learn</p>
               </div>
             </div>
 
-            <div class="col-sm-4">
-              <div class="about_stat text-center">
+            <div className="col-sm-4">
+              <div className="about_stat text-center">
                 <span>
                   <GlobalIcon />
                 </span>
-                <h2 class="fw_bold text_blue3 f_30">10,000 +</h2>
+                <h2 className="fw_bold text_blue3 f_30">10,000 +</h2>
                 <p>Language Teachers from 120 Countries</p>
               </div>
             </div>
 
-            <div class="col-sm-4">
-              <div class="about_stat text-center">
+            <div className="col-sm-4">
+              <div className="about_stat text-center">
                 <span>
                   <ContactIcon />
                 </span>
-                <h2 class="fw_bold text_blue3 f_30">5,000,000 +</h2>
+                <h2 className="fw_bold text_blue3 f_30">5,000,000 +</h2>
                 <p>Language Teachers from 180 Countries</p>
               </div>
             </div>
@@ -227,23 +227,23 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section class="section_padding">
-        <div class="container">
-          <div class="our_team_slider mb-4">
-            <h5 class="about_heading">What We Do?</h5>
-            <h3 class="text_blue3 fw_bold f_30">OUR TEAM</h3>
+      <section className="section_padding">
+        <div className="container">
+          <div className="our_team_slider mb-4">
+            <h5 className="about_heading">What We Do?</h5>
+            <h3 className="text_blue3 fw_bold f_30">OUR TEAM</h3>
 
             <Slider {...settings}>
               {loop6.map((item) => (
-                <div class="item" key={item}>
-                  <div class="team_card">
-                    <div class="team_img w-50">
-                      <img src={dummy_img} alt="img" class="img-fluid" />
+                <div className="item" key={item}>
+                  <div className="team_card">
+                    <div className="team_img w-50">
+                      <img src={dummy_img} alt="img" className="img-fluid" />
                     </div>
-                    <div class="team_info w-50 p-3">
-                      <span class="logout_color f_12">Chinese Teacher</span>
-                      <h5 class="f_20 fw_bold text_blue3">Lian Ming</h5>
-                      <p class="f_14">
+                    <div className="team_info w-50 p-3">
+                      <span className="logout_color f_12">Chinese Teacher</span>
+                      <h5 className="f_20 fw_bold text_blue3">Lian Ming</h5>
+                      <p className="f_14">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac odio id
                         massa dignissim venenatis. Phasellus tempor ornare turpis, quis eleifend
                         metus venenatis mattis.
@@ -255,38 +255,38 @@ const AboutUs = () => {
             </Slider>
           </div>
 
-          <div class="our_team_slider">
-            <h5 class="about_heading">Blog</h5>
-            <h3 class="text_blue3 fw_bold f_30">OUR BLOGS</h3>
+          <div className="our_team_slider">
+            <h5 className="about_heading">Blog</h5>
+            <h3 className="text_blue3 fw_bold f_30">OUR BLOGS</h3>
 
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="blog_card">
-                  <div class="blog_img">
-                    <img src={blog} alt="img" class="img-fluid" />
-                    <span class="text-white">
+            <div className="row">
+              <div className="col-sm-4">
+                <div className="blog_card">
+                  <div className="blog_img">
+                    <img src={blog} alt="img" className="img-fluid" />
+                    <span className="text-white">
                       <CommentIcon /> 1 Comment
                     </span>
                   </div>
-                  <div class="blog_info p-3 pb-0">
-                    <p class="fw_bold text_blue f_12 mb-0">
-                      <span class="me-1">
+                  <div className="blog_info p-3 pb-0">
+                    <p className="fw_bold text_blue f_12 mb-0">
+                      <span className="me-1">
                         <UserIcon />
                       </span>
                       Klinixer{' '}
                     </p>
-                    <p class="fw_bold text_blue f_12  mb-0">
-                      <span class="me-1">
+                    <p className="fw_bold text_blue f_12  mb-0">
+                      <span className="me-1">
                         <CalendarAboutIcon />
                       </span>
                       Jul 08,2021{' '}
                     </p>
                   </div>
-                  <div class="blog_description p-3">
-                    <h5 class="fw_bold text_blue f_16">
+                  <div className="blog_description p-3">
+                    <h5 className="fw_bold text_blue f_16">
                       How About Fall Cleaning? 8 Tips To Get Ready For The Winter
                     </h5>
-                    <p class="f_14 text_blue mb-0">
+                    <p className="f_14 text_blue mb-0">
                       We provide janitorial and specialized cleaning services for all types and
                       sizes of complexes from small ….
                     </p>
@@ -294,33 +294,33 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <div class="col-sm-4">
-                <div class="blog_card">
-                  <div class="blog_img">
-                    <img src={blog2} alt="img" class="img-fluid" />
-                    <span class="text-white">
+              <div className="col-sm-4">
+                <div className="blog_card">
+                  <div className="blog_img">
+                    <img src={blog2} alt="img" className="img-fluid" />
+                    <span className="text-white">
                       <CommentIcon /> 1 Comment
                     </span>
                   </div>
-                  <div class="blog_info p-3 pb-0">
-                    <p class="fw_bold text_blue f_12 mb-0">
-                      <span class="me-1">
+                  <div className="blog_info p-3 pb-0">
+                    <p className="fw_bold text_blue f_12 mb-0">
+                      <span className="me-1">
                         <UserIcon />
                       </span>
                       Klinixer{' '}
                     </p>
-                    <p class="fw_bold text_blue f_12  mb-0">
-                      <span class="me-1">
+                    <p className="fw_bold text_blue f_12  mb-0">
+                      <span className="me-1">
                         <CalendarAboutIcon />
                       </span>
                       Jul 08,2021{' '}
                     </p>
                   </div>
-                  <div class="blog_description p-3">
-                    <h5 class="fw_bold text_blue f_16">
+                  <div className="blog_description p-3">
+                    <h5 className="fw_bold text_blue f_16">
                       How About Fall Cleaning? 8 Tips To Get Ready For The Winter
                     </h5>
-                    <p class="f_14 text_blue mb-0">
+                    <p className="f_14 text_blue mb-0">
                       We provide janitorial and specialized cleaning services for all types and
                       sizes of complexes from small ….
                     </p>
@@ -328,33 +328,33 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <div class="col-sm-4">
-                <div class="blog_card">
-                  <div class="blog_img">
-                    <img src={blog3} alt="img" class="img-fluid" />
-                    <span class="text-white">
+              <div className="col-sm-4">
+                <div className="blog_card">
+                  <div className="blog_img">
+                    <img src={blog3} alt="img" className="img-fluid" />
+                    <span className="text-white">
                       <CommentIcon /> 1 Comment
                     </span>
                   </div>
-                  <div class="blog_info p-3 pb-0">
-                    <p class="fw_bold text_blue f_12 mb-0">
-                      <span class="me-1">
+                  <div className="blog_info p-3 pb-0">
+                    <p className="fw_bold text_blue f_12 mb-0">
+                      <span className="me-1">
                         <UserIcon />
                       </span>
                       Klinixer{' '}
                     </p>
-                    <p class="fw_bold text_blue f_12  mb-0">
-                      <span class="me-1">
+                    <p className="fw_bold text_blue f_12  mb-0">
+                      <span className="me-1">
                         <CalendarAboutIcon />
                       </span>
                       Jul 08,2021{' '}
                     </p>
                   </div>
-                  <div class="blog_description p-3">
-                    <h5 class="fw_bold text_blue f_16">
+                  <div className="blog_description p-3">
+                    <h5 className="fw_bold text_blue f_16">
                       How About Fall Cleaning? 8 Tips To Get Ready For The Winter
                     </h5>
-                    <p class="f_14 text_blue mb-0">
+                    <p className="f_14 text_blue mb-0">
                       We provide janitorial and specialized cleaning services for all types and
                       sizes of complexes from small ….
                     </p>

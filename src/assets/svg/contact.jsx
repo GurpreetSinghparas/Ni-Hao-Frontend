@@ -16,7 +16,7 @@ const ContactIcon = () => (
         transform="translate(91 13)"
         fill="#fff"
         stroke="#414143"
-        stroke-width="1"
+        strokeWidth="1"
       >
         <rect width="124" height="124" rx="62" stroke="none" />
         <rect x="0.5" y="0.5" width="123" height="123" rx="61.5" fill="none" />
@@ -33,7 +33,7 @@ const ContactIcon = () => (
           transform="translate(-53.135 -319.59)"
           fill="#414143"
           stroke="#414144"
-          stroke-width="1"
+          strokeWidth="1"
         />
         <path
           id="Path_43714"
@@ -42,7 +42,7 @@ const ContactIcon = () => (
           transform="translate(-23.16 -61.37)"
           fill="#414143"
           stroke="#414144"
-          stroke-width="1"
+          strokeWidth="1"
         />
         <path
           id="Path_43715"
@@ -51,7 +51,7 @@ const ContactIcon = () => (
           transform="translate(-166.141 -106.484)"
           fill="#414143"
           stroke="#414144"
-          stroke-width="1"
+          strokeWidth="1"
         />
         <path
           id="Path_43716"
@@ -60,7 +60,7 @@ const ContactIcon = () => (
           transform="translate(-319.195 -149.51)"
           fill="#414143"
           stroke="#414144"
-          stroke-width="1"
+          strokeWidth="1"
         />
         <path
           id="Path_43717"
@@ -69,7 +69,7 @@ const ContactIcon = () => (
           transform="translate(-166.141 -149.51)"
           fill="#414143"
           stroke="#414144"
-          stroke-width="1"
+          strokeWidth="1"
         />
         <path
           id="Path_43718"
@@ -78,7 +78,7 @@ const ContactIcon = () => (
           transform="translate(-284.551 -192.535)"
           fill="#414143"
           stroke="#414144"
-          stroke-width="1"
+          strokeWidth="1"
         />
         <path
           id="Path_43719"
@@ -87,7 +87,7 @@ const ContactIcon = () => (
           transform="translate(-166.141 -192.535)"
           fill="#414143"
           stroke="#414144"
-          stroke-width="1"
+          strokeWidth="1"
         />
       </g>
     </g>

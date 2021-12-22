@@ -8,7 +8,9 @@ const Login = lazy(() => import('@routes/session/login'));
 const Welcome = lazy(() => import('@routes/welcome'));
 const OurCousesWithoutLogin = lazy(() => import('@routes/ourCoursesWithoutLogin/index'));
 const AboutUs = lazy(() => import('@routes/about-us'));
+const Plan = lazy(() => import('@routes/planPage'));
 
+//
 const AsyncStudentDashboard = lazy(() => import('@routes/dashboard/studentDashboard'));
 const AsyncLogin = lazy(() => import('@routes/session/login'));
 
@@ -23,4 +25,5 @@ export {
   SignUpStudent,
   SignUpCompany,
   AboutUs,
+  Plan,
 };

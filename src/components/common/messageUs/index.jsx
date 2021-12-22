@@ -2,9 +2,9 @@ import WhatsappIcon from '@svg/whatsapp';
 
 const MessageUs = () => {
   return (
-    <div class="whts_app">
-      <button class="btn btn-outline-secondary fw_bold whts_app_btn">
-        <span class="me-2">
+    <div className="whts_app">
+      <button className="btn btn-outline-secondary fw_bold whts_app_btn">
+        <span className="me-2">
           <WhatsappIcon />
         </span>
         Message Us

@@ -11,7 +11,7 @@ const CommentIcon = () => (
       transform="translate(0.15 -0.85)"
       fill="#fff"
       stroke="#fff"
-      stroke-width="0.3"
+      strokeWidth="0.3"
     />
   </svg>
 );

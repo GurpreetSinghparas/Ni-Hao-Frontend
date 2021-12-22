@@ -1,5 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
-import { SignUp, Login, Welcome, SignUpStudent, SignUpCompany } from '@components/asyncComponents';
+import {
+  SignUp,
+  Login,
+  Welcome,
+  SignUpStudent,
+  SignUpCompany,
+  AboutUs,
+} from '@components/asyncComponents';
 import DefaultLayout from './defaultLayout';
 
 const App = () => {
@@ -12,6 +19,7 @@ const App = () => {
       <Route path="/signup_company" element={<SignUpCompany />} />
       <Route path="/login" element={<Login />} />
       <Route path="/welcome" element={<Welcome />} />
+      <Route path="/about-us" element={<AboutUs />} />
     </Routes>
   );
 };

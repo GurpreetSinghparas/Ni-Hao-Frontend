@@ -1,0 +1,97 @@
+.about_img img {
+  border-radius: 20px;
+}
+
+h5 {
+  &.about_heading {
+    color: #f66962;
+    background: #feedec;
+    padding: 10px;
+    width: max-content;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+}
+
+.service_first {
+  background: #fff5bf;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.service_third {
+  background: #dde3ff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.service_third {
+  background: #bff5ff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.service_fourth {
+  background: #e3ffea;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.about_stat span svg {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.bg_light_blue {
+  background-color: #f4fbff;
+}
+.about_stat p {
+  color: #6e9ebc;
+}
+
+.team_card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 16px #0000002b;
+  margin: 20px;
+  display: flex;
+}
+.team_img img {
+  border-radius: 20px 0px 0px 20px;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+.team_info p {
+  color: #85939b;
+}
+
+.blog_img {
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.blog_img img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.blog_card {
+  background: #f4fbff;
+  border-radius: 10px;
+}
+.blog_info {
+  display: flex;
+  justify-content: space-between;
+}
+.blog_img span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #b5b5b5;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}

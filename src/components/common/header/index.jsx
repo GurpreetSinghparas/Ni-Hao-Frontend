@@ -28,7 +28,8 @@ const Header = ({ className }) => {
       pathname === '/login' ||
       pathname === '/welcome' ||
       pathname === '/signup_company' ||
-      pathname === '/signup_student'
+      pathname === '/signup_student' ||
+      pathname === '/about-us'
     )
       return 'active';
     return '';
@@ -67,7 +68,9 @@ const Header = ({ className }) => {
               <li className="nav-item">
                 <Link
                   to="/kids"
-                  className={`nav-link ${pathname === '/welcome' ? 'text-uppercase' : ''}`}
+                  className={`nav-link ${
+                    pathname === '/welcome' || pathname === '/about-us' ? 'text-uppercase' : ''
+                  }`}
                 >
                   For Kids
                 </Link>

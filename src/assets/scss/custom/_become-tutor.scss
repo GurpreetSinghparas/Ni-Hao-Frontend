@@ -1,0 +1,86 @@
+.carousel-item::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.carousel-caption.d-none.d-md-block {
+  position: absolute;
+  right: 15%;
+  bottom: 40px;
+  left: 120px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  top: 130px;
+  max-width: 648px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+.carousel-indicators-new {
+  position: absolute;
+  bottom: 60px;
+  right: 98px;
+  z-index: 1;
+}
+
+.inner-carousel {
+  position: relative;
+  top: 50px;
+}
+
+.carousel-indicators-new button.active {
+  background: #f66962;
+  width: 37px;
+  height: 37px;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+}
+.carousel-indicators-new button {
+  background: #c7c7c6;
+  width: 37px;
+  height: 37px;
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.welcome_header_bg {
+  &.teacher-dash {
+    background: #f9fdff;
+    height: 32px;
+  }
+}
+
+.teacher_dash .card-body {
+  background: #f2faff87;
+  -webkit-box-shadow: inset 0 0 8px #d7dee3;
+  box-shadow: inset 0 0 8px #d7dee3;
+}
+
+.img_new {
+  padding: 20px;
+  background-color: #f2faff;
+  -webkit-box-shadow: inset 0 0 8px #d7dee3;
+  box-shadow: inset 0 0 8px #d7dee3;
+}
+
+.inner-card {
+  padding: 16px 16px 35px;
+}

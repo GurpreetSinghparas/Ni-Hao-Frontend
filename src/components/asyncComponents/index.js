@@ -9,6 +9,12 @@ const Welcome = lazy(() => import('@routes/welcome'));
 const OurCousesWithoutLogin = lazy(() => import('@routes/ourCoursesWithoutLogin/index'));
 const AboutUs = lazy(() => import('@routes/about-us'));
 const Plan = lazy(() => import('@routes/planPage'));
+const SiteMap = lazy(() => import('@routes/siteMap'));
+const Faq2 = lazy(() => import('@routes/faq2'));
+const BecomeTutor = lazy(() => import('@routes/becomeTutor'));
+const BecomeAmbassador = lazy(() => import('@routes/becomeAmbassador'));
+const Home = lazy(() => import('@routes/home'));
+const TutorDetails = lazy(() => import('@routes/tutorDetails'));
 
 //
 const AsyncStudentDashboard = lazy(() => import('@routes/dashboard/studentDashboard'));
@@ -26,4 +32,10 @@ export {
   SignUpCompany,
   AboutUs,
   Plan,
+  SiteMap,
+  Faq2,
+  BecomeTutor,
+  BecomeAmbassador,
+  Home,
+  TutorDetails,
 };

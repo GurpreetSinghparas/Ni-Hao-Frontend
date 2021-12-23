@@ -1,0 +1,13 @@
+ul {
+  &.site_map_info {
+    font-size: 18px;
+    border-left: 1px solid #ededed;
+    li {
+      list-style-type: none;
+      color: #0a9ef8;
+      font-size: 15px;
+      cursor: pointer;
+      margin-top: 18px;
+    }
+  }
+}

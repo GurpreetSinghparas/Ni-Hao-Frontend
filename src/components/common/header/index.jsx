@@ -22,17 +22,19 @@ const Header = ({ className }) => {
   }, []);
 
   const renderActiveClass = () => {
-    if (
-      pathname === '/our-courses' ||
-      pathname === '/signup' ||
-      pathname === '/login' ||
-      pathname === '/welcome' ||
-      pathname === '/signup_company' ||
-      pathname === '/signup_student' ||
-      pathname === '/about-us'
-    )
-      return 'active';
-    return '';
+    // if (
+    //   pathname === '/our-courses' ||
+    //   pathname === '/signup' ||
+    //   pathname === '/login' ||
+    //   pathname === '/welcome' ||
+    //   pathname === '/signup_company' ||
+    //   pathname === '/signup_student' ||
+    //   pathname === '/about-us'
+    // )
+    //   return 'active';
+    // return '';
+    if (pathname === '/') return '';
+    return 'active';
   };
 
   return (

@@ -168,12 +168,12 @@ const IndexFooter = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/Become_Tutor" className="text_black f_16">
+                <Link to="/become-tutor" className="text_black f_16">
                   Become A Tutor
                 </Link>
               </li>
               <li>
-                <Link to="/Become-Ambassador" className="text_black f_16">
+                <Link to="/become-ambassador" className="text_black f_16">
                   Become An Ambassador
                 </Link>
               </li>

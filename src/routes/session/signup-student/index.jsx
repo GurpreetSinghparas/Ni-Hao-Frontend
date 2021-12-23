@@ -16,7 +16,7 @@ const StudentSignUpForm = () => (
         id="floatingInput"
         placeholder="name@example.com"
       />
-      <label for="floatingInput">Username/Email</label>
+      <label htmlFor="floatingInput">Username/Email</label>
     </div>
     <div className="form-floating mb-4">
       <Input

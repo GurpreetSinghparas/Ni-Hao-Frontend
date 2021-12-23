@@ -497,3 +497,114 @@ span {
   box-shadow: 0px 4px 15px #98070026;
   font-size: 18px;
 }
+
+// terms_text
+.terms_text {
+  p {
+    color: #2c6384;
+  }
+  h5 {
+    color: #067fbf;
+    font-size: 18px;
+  }
+
+  &.site_map {
+    h5 {
+      margin-top: 28px;
+    }
+  }
+
+  ul li {
+    color: #2c6384;
+    margin-top: 12px;
+  }
+}
+
+// dropdown
+.dropdown {
+  list-style-type: none !important;
+}
+.dropdown_menu {
+  position: absolute;
+  top: 52px;
+  right: 0;
+  width: 280px;
+  perspective: 1000px;
+  z-index: -1;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0px 3px 6px #00000026;
+  padding-left: 0;
+}
+.dropdown_menu li {
+  display: none;
+  color: #005182;
+  padding: 10px 20px;
+  font-size: 16px;
+  opacity: 0;
+  border-bottom: 1px solid #dedede63;
+}
+.dropdown_menu li:hover {
+  background-color: #fff;
+}
+.dropdown_menu li:last-child {
+  border: none;
+}
+.dropdown:hover .dropdown_menu--animated {
+  display: block;
+}
+.dropdown_menu--animated {
+  display: none;
+}
+.dropdown_menu--animated li {
+  display: block;
+  opacity: 1;
+}
+.dropdown_menu-4 .dropdown_item-1 {
+  transform-origin: top center;
+  animation: scaleZ 300ms 60ms ease-in-out forwards;
+}
+.dropdown_menu-4 .dropdown_item-2 {
+  transform-origin: top center;
+  animation: scaleZ 300ms 120ms ease-in-out forwards;
+}
+.dropdown_menu-4 .dropdown_item-3 {
+  transform-origin: top center;
+  animation: scaleZ 300ms 180ms ease-in-out forwards;
+}
+.dropdown_menu-4 .dropdown_item-4 {
+  transform-origin: top center;
+  animation: scaleZ 300ms 240ms ease-in-out forwards;
+}
+.dropdown_menu-4 .dropdown_item-5 {
+  transform-origin: top center;
+  animation: scaleZ 300ms 300ms ease-in-out forwards;
+}
+.dropdown_menu-4 .dropdown_item-6 {
+  transform-origin: top center;
+  animation: scaleZ 300ms 360ms ease-in-out forwards;
+}
+.dropdown_menu-4 .dropdown_item-7 {
+  transform-origin: top center;
+  animation: scaleZ 300ms 420ms ease-in-out forwards;
+}
+.dropdown_menu-4 .dropdown_item-8 {
+  transform-origin: top center;
+  animation: scaleZ 300ms 480ms ease-in-out forwards;
+}
+.dropdown_menu-4 {
+  transform-origin: top center;
+  animation: scaleZ 300ms 480ms ease-in-out forwards;
+}
+
+.dropdown {
+  position: relative;
+  perspective: 1000px;
+  z-index: 9;
+}
+.dropdown:hover {
+  cursor: pointer;
+}
+.dropdown:hover .dropdown_menu li {
+  display: block;
+}

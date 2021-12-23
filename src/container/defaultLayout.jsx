@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import { IndexPage, OurCousesWithoutLogin } from '@components/asyncComponents';
+import { IndexPage, OurCousesWithoutLogin, Home, TutorDetails } from '@components/asyncComponents';
 import routerServices from '../services/_routerServices';
 
 const DefaultLayout = () => {
@@ -18,6 +18,8 @@ const DefaultLayout = () => {
       <Routes>
         <Route path="/" element={<IndexPage />} />
         <Route path="/our-courses" element={<OurCousesWithoutLogin />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/tutor-details" element={<TutorDetails />} />
         {renderRoutes()}
       </Routes>
     </Fragment>

@@ -1,0 +1,148 @@
+.ambassador_service {
+  padding: 80px 0;
+
+  &.teacher_dash_card {
+    background-color: #f2faff;
+  }
+}
+
+.center_heading {
+  max-width: 600px;
+}
+
+.ambassador_banner {
+  background: url('../../images/ambassador_banner.jpg') no-repeat center top;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.ambassador_banner .bannerText {
+  background-color: rgba(21, 18, 18, 0.44);
+  max-width: 680px;
+  padding: 2.3rem;
+}
+
+.bannerText::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  //   background: url(../images/border_half.svg) no-repeat left top;
+  background: url('../../images/border_half.svg') no-repeat left top;
+  height: 100%;
+  background-size: contain;
+}
+.rounded-5 {
+  border-radius: 15px;
+}
+.ambassador_service {
+  padding: 80px 0;
+}
+.card:after {
+  position: absolute;
+  content: '';
+  right: -15px;
+  height: 65px;
+  border-right: 5px solid #eff9ff !important;
+  border-radius: 5px !important;
+  top: 50%;
+  bottom: 0;
+}
+.remove_border_right.card:after {
+  right: 0;
+  height: 0px;
+  border-right: 0px solid #eff9ff !important;
+}
+
+.ambassador_service_full.fullBg1,
+.ambassador_service_full.fullBg2 {
+  background-size: 50% auto;
+  height: 530px;
+}
+.fullBg1 {
+  //   background: url(../images/audience_bg.jpg) no-repeat right top;
+  background: url('../../images/audience_bg.jpg') no-repeat right top;
+}
+.fullBg2 {
+  background: url('../../images/good_fit_bg.jpg') no-repeat left top;
+}
+
+.flat_card {
+  background-color: #f5fcff;
+  box-shadow: -15px 10px 0px 0px #eff9ff;
+}
+
+.fullBg1 .flat_card {
+  margin-left: 5rem;
+}
+.fullBg2 .flat_card {
+  margin-right: 5rem;
+}
+
+.check_bullet li {
+  position: relative;
+  padding-left: 1.8rem;
+}
+.check_bullet li:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+.check_bullet li::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  background: url('../../images/li_tick.svg') no-repeat left top;
+  //   background: url(../images/li_tick.svg) no-repeat left top;
+  width: 18px;
+  height: 18px;
+}
+
+.topAmbassador {
+  padding: 80px 0;
+}
+.ambassador_social li:not(:last-child) {
+  margin-right: 10px;
+}
+.ambassador_social li a {
+  width: 24px;
+  height: 24px;
+  background-color: #f4f4f4;
+  display: inline-flex;
+  padding: 6px;
+  border-radius: 3px;
+}
+.media-left img {
+  border-radius: 10px;
+}
+.ambassador_slider .item > .ambassador_column:last-child {
+  margin-top: 3.5rem;
+}
+
+section.ambassador_service.get_started {
+  background-color: #f2faff;
+}
+
+.get_started .card-body {
+  background-color: #f2faff;
+}
+
+.get_started .card:after {
+  position: absolute;
+  right: -25px;
+  height: 65px;
+  content: url('../../images/arrow_red.png');
+  top: 50%;
+  bottom: 0;
+}
+
+.remove_border_right:after {
+  display: none;
+}
+
+.get_btn {
+  width: 220px;
+}
+
+section.ambassador_service.get_started {
+  padding: 60px 0;
+}

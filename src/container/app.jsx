@@ -10,6 +10,10 @@ import {
   SignUpCompany,
   AboutUs,
   Plan,
+  SiteMap,
+  Faq2,
+  BecomeTutor,
+  BecomeAmbassador,
 } from '@components/asyncComponents';
 import DefaultLayout from './defaultLayout';
 
@@ -32,6 +36,11 @@ const App = () => {
       <Route path="/welcome" element={<Welcome />} />
       <Route path="/about-us" element={<AboutUs />} />
       <Route path="/plan-page" element={<Plan />} />
+      <Route path="/site_map" element={<SiteMap />} />
+      <Route path="/faq_2" element={<Faq2 />} />
+      <Route path="/become-tutor" element={<BecomeTutor />} />
+      <Route path="/tutor-part/teacher_login" element={<div>Tutor-part/teacher_login</div>} />
+      <Route path="/become-ambassador" element={<BecomeAmbassador />} />
     </Routes>
   );
 };

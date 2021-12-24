@@ -1,0 +1,184 @@
+[
+  {
+    "dashboardRoutes": [
+      {
+        "id": 0,
+        "name": "Website Survey",
+        "route": "website-survey"
+      },
+      {
+        "id": 1,
+        "name": "Teacher Survey",
+        "route": "teacher-survey"
+      },
+      {
+        "id": 2,
+        "name": "Students Survey",
+        "route": "students-survey"
+      },
+      {
+        "id": 3,
+        "name": "New Survey",
+        "route": "new-survey"
+      },
+      {
+        "id": 4,
+        "name": "Students",
+        "route": "students"
+      },
+      {
+        "id": 5,
+        "name": "Schools / Company",
+        "route": "schools-company"
+      },
+      {
+        "id": 6,
+        "name": "Teachers",
+        "route": "teachers"
+      },
+      {
+        "id": 7,
+        "name": "Brokers",
+        "route": "brokers"
+      },
+      {
+        "id": 8,
+        "name": "Courses",
+        "route": "courses"
+      },
+      {
+        "id": 9,
+        "name": "Admins",
+        "route": "admins"
+      },
+      {
+        "id": 10,
+        "name": "About Service",
+        "route": "about-service"
+      },
+      {
+        "id": 11,
+        "name": "Visitors",
+        "route": "visitors"
+      },
+      {
+        "id": 12,
+        "name": "Campaigns",
+        "route": "campaigns"
+      }
+    ]
+  },
+  {
+    "SurveyRoutes": [
+      {
+        "id": 0,
+        "name": "Website Survey",
+        "route": "website-survey"
+      },
+      {
+        "id": 1,
+        "name": "Teacher Survey",
+        "route": "teacher-survey"
+      },
+      {
+        "id": 2,
+        "name": "Students Survey",
+        "route": "students-survey"
+      },
+      {
+        "id": 3,
+        "name": "New Survey",
+        "route": "new-survey"
+      }
+    ]
+  },
+  {
+    "AdminRoutes": [
+      {
+        "id": 0,
+        "name": "Create New Admin",
+        "route": "create-new-admin"
+      },
+      {
+        "id": 1,
+        "name": "Schools",
+        "route": "schools"
+      },
+      {
+        "id": 2,
+        "name": "Companies",
+        "route": "companies"
+      },
+      {
+        "id": 3,
+        "name": "Courses",
+        "route": "courses"
+      },
+      {
+        "id": 4,
+        "name": "Subscriptions",
+        "route": "subscriptions"
+      },
+      {
+        "id": 5,
+        "name": "Brokers",
+        "route": "brokers"
+      },
+      {
+        "id": 6,
+        "name": "Students",
+        "route": "students"
+      },
+      {
+        "id": 7,
+        "name": "Kids",
+        "route": "kids"
+      },
+      {
+        "id": 8,
+        "name": "Teachers",
+        "route": "teachers"
+      },
+      {
+        "id": 9,
+        "name": "Emails & Notifications",
+        "route": "emails-and-notifications"
+      },
+      {
+        "id": 10,
+        "name": "Prices",
+        "route": "prices"
+      },
+      {
+        "id": 11,
+        "name": "Single Teacher Page",
+        "route": "single-teacher-page"
+      },
+      {
+        "id": 12,
+        "name": "Single Student Page",
+        "route": "single-student-page"
+      },
+      {
+        "id": 13,
+        "name": "Single Broker Page",
+        "route": "single-broker-page"
+      },
+      {
+        "id": 14,
+        "name": "Courses",
+        "route": "courses"
+      },
+      {
+        "id": 15,
+        "name": "Admins",
+        "route": "admins"
+      },
+      {
+        "id": 16,
+        "name": "Campaigns",
+        "route": "campaigns"
+      }
+    ]
+  }
+]

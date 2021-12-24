@@ -42,7 +42,7 @@ const App = () => {
       <Route path="/tutor-part/teacher_login" element={<div>Tutor-part/teacher_login</div>} />
       <Route path="/become-ambassador" element={<BecomeAmbassador />} />
 
-      <Route path="/broker" element={<BrokerLayout />} />
+      <Route path="/broker/*" element={<BrokerLayout />} />
 
       <Route path="/*" element={<DefaultLayout />} />
     </Routes>

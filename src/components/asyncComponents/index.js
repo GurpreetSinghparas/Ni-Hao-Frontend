@@ -20,6 +20,8 @@ const TutorDetails = lazy(() => import('@routes/tutorDetails'));
 const AsyncStudentDashboard = lazy(() => import('@routes/dashboard/studentDashboard'));
 const AsyncLogin = lazy(() => import('@routes/session/login'));
 
+const Broker = lazy(() => import ('@routes/broker'));
+
 export {
   IndexPage,
   OurCousesWithoutLogin,
@@ -38,4 +40,5 @@ export {
   BecomeAmbassador,
   Home,
   TutorDetails,
+  Broker
 };

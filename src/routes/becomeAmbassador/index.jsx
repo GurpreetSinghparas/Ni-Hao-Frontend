@@ -207,7 +207,7 @@ const BecomeAmbassador = () => {
                 <div className="d-flex flex-column ambassador_column">
                   <div className="media d-flex">
                     <div className="media-left me-4">
-                      <img src={top1} className="media-object" />
+                      <img alt="" src={top1} className="media-object" />
                     </div>
                     <div className="media-body">
                       <h4 className="media-heading text_blue fw_bold mb-0">Mark book</h4>
@@ -215,17 +215,17 @@ const BecomeAmbassador = () => {
                       <ul className="list-unstyled ambassador_social d-flex mt-3">
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_fb} />
+                            <img alt="" className="img-fluid" src={social_fb} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_twitter} />
+                            <img alt="" className="img-fluid" src={social_twitter} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_linkedin} />
+                            <img alt="" className="img-fluid" src={social_linkedin} />
                           </Link>
                         </li>
                       </ul>
@@ -236,7 +236,7 @@ const BecomeAmbassador = () => {
                 <div className="d-flex flex-column ambassador_column">
                   <div className="media d-flex">
                     <div className="media-left me-4">
-                      <img src={top4} className="media-object" />
+                      <img alt="" src={top4} className="media-object" />
                     </div>
                     <div className="media-body">
                       <h4 className="media-heading text_blue fw_bold mb-0">Michiel J</h4>
@@ -244,17 +244,17 @@ const BecomeAmbassador = () => {
                       <ul className="list-unstyled ambassador_social d-flex mt-3">
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_fb} />
+                            <img alt="" className="img-fluid" src={social_fb} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_twitter} />
+                            <img alt="" className="img-fluid" src={social_twitter} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_linkedin} />
+                            <img alt="" className="img-fluid" src={social_linkedin} />
                           </Link>
                         </li>
                       </ul>
@@ -268,7 +268,7 @@ const BecomeAmbassador = () => {
                 <div className="d-flex flex-column ambassador_column">
                   <div className="media d-flex">
                     <div className="media-left me-4">
-                      <img src={top2} className="media-object" />
+                      <img alt="" src={top2} className="media-object" />
                     </div>
                     <div className="media-body">
                       <h4 className="media-heading text_blue fw_bold mb-0">Jane Smith</h4>
@@ -276,17 +276,17 @@ const BecomeAmbassador = () => {
                       <ul className="list-unstyled ambassador_social d-flex mt-3">
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_fb} />
+                            <img alt="" className="img-fluid" src={social_fb} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_twitter} />
+                            <img alt="" className="img-fluid" src={social_twitter} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_linkedin} />
+                            <img alt="" className="img-fluid" src={social_linkedin} />
                           </Link>
                         </li>
                       </ul>
@@ -297,7 +297,7 @@ const BecomeAmbassador = () => {
                 <div className="d-flex flex-column ambassador_column">
                   <div className="media d-flex">
                     <div className="media-left me-4">
-                      <img src={top5} className="media-object" />
+                      <img alt="" src={top5} className="media-object" />
                     </div>
                     <div className="media-body">
                       <h4 className="media-heading text_blue fw_bold mb-0">Lady Kim</h4>
@@ -305,17 +305,17 @@ const BecomeAmbassador = () => {
                       <ul className="list-unstyled ambassador_social d-flex mt-3">
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_fb} />
+                            <img alt="" className="img-fluid" src={social_fb} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_twitter} />
+                            <img alt="" className="img-fluid" src={social_twitter} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_linkedin} />
+                            <img alt="" className="img-fluid" src={social_linkedin} />
                           </Link>
                         </li>
                       </ul>
@@ -329,7 +329,7 @@ const BecomeAmbassador = () => {
                 <div className="d-flex flex-column ambassador_column">
                   <div className="media d-flex">
                     <div className="media-left me-4">
-                      <img src={top3} className="media-object" />
+                      <img alt="" src={top3} className="media-object" />
                     </div>
                     <div className="media-body">
                       <h4 className="media-heading text_blue fw_bold mb-0">John Deo</h4>
@@ -337,17 +337,17 @@ const BecomeAmbassador = () => {
                       <ul className="list-unstyled ambassador_social d-flex mt-3">
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_fb} />
+                            <img alt="" className="img-fluid" src={social_fb} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_twitter} />
+                            <img alt="" className="img-fluid" src={social_twitter} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_linkedin} />
+                            <img alt="" className="img-fluid" src={social_linkedin} />
                           </Link>
                         </li>
                       </ul>
@@ -358,7 +358,7 @@ const BecomeAmbassador = () => {
                 <div className="d-flex flex-column ambassador_column">
                   <div className="media d-flex">
                     <div className="media-left me-4">
-                      <img src={top6} className="media-object" />
+                      <img alt="" src={top6} className="media-object" />
                     </div>
                     <div className="media-body">
                       <h4 className="media-heading text_blue fw_bold mb-0">Mark book</h4>
@@ -366,17 +366,17 @@ const BecomeAmbassador = () => {
                       <ul className="list-unstyled ambassador_social d-flex mt-3">
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_fb} />
+                            <img alt="" className="img-fluid" src={social_fb} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_twitter} />
+                            <img alt="" className="img-fluid" src={social_twitter} />
                           </Link>
                         </li>
                         <li>
                           <Link to="/">
-                            <img className="img-fluid" src={social_linkedin} />
+                            <img alt="" className="img-fluid" src={social_linkedin} />
                           </Link>
                         </li>
                       </ul>

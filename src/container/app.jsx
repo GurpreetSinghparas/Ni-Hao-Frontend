@@ -16,6 +16,7 @@ import {
   BecomeAmbassador,
 } from '@components/asyncComponents';
 import DefaultLayout from './defaultLayout';
+import BrokerLayout from './brokerLayout';
 
 const App = () => {
   const { pathname } = useLocation();
@@ -28,7 +29,6 @@ const App = () => {
   }, [pathname]);
   return (
     <Routes>
-      <Route path="/*" element={<DefaultLayout />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/signup_student" element={<SignUpStudent />} />
       <Route path="/signup_company" element={<SignUpCompany />} />
@@ -41,6 +41,10 @@ const App = () => {
       <Route path="/become-tutor" element={<BecomeTutor />} />
       <Route path="/tutor-part/teacher_login" element={<div>Tutor-part/teacher_login</div>} />
       <Route path="/become-ambassador" element={<BecomeAmbassador />} />
+
+      <Route path="/broker" element={<BrokerLayout />} />
+
+      <Route path="/*" element={<DefaultLayout />} />
     </Routes>
   );
 };

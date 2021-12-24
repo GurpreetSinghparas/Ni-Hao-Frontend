@@ -1,4 +1,22 @@
 import React, { Fragment } from 'react';
+import SideBarLogo from '@images/sidebar-logo.png';
+import NiHaoIcon from '@images/ni-hao-icon.png';
+import ToggleArrow from '@images/toggle-arrow.png';
+
+// import NiHaoIcon from '@images/ni-hao-icon.png';
+// import NiHaoIcon from '@images/ni-hao-icon.png';
+// import NiHaoIcon from '@images/ni-hao-icon.png';
+
+import DashboardIcon from '@svg/dashboard-icon.svg';
+import SurveyIcon from '@svg/survey-icon.svg';
+import FeedbackIcon from '@svg/feedback-icon.svg';
+import AdminIcon from '@svg/admin-icon.svg';
+import SupportIcon from '@svg/support-icon.svg';
+import SettingIcon from '@svg/setting-icon.svg';
+
+import ContactIcon from '@svg/contact-icon.svg';
+import LogoutIcon from '@svg/logout-icon.svg';
+
 
 const Broker = () => {
   return (
@@ -9,19 +27,19 @@ const Broker = () => {
           <div class="sidebar-header">
             <div class="header_column position-relative">
               <h3>
-                <img src="assets/img/sidebar-logo.png" alt="image" />
+                <img src={SideBarLogo} alt="SideBarLogo" />
               </h3>
               <strong>
-                <img src="assets/img/ni-hao-icon.png" />
+                <img src={NiHaoIcon} alt="NiHaoIcon" />
               </strong>
               <div class="toggler" id="sidebarCollapse">
                 <button type="button">
-                  <img src="assets/img/toggle-arrow.png" alt="icon" />
+                  <img src={ToggleArrow} alt="ToggleArrow" />
                 </button>
               </div>
               <div class="toggler_hide d-none" id="sidebarCollapse2">
                 <button type="button">
-                  <img src="assets/img/toggle-arrow.png" alt="icon" />
+                  <img src={ToggleArrow} alt="ToggleArrow" />
                 </button>
               </div>
             </div>
@@ -35,7 +53,7 @@ const Broker = () => {
                 data-bs-target="#dashboard"
               >
                 <span class="sidebar_icon me-2">
-                  <img src="assets/img/sidemenu/dashboard-icon.svg" alt="icon" />
+                  <img src={DashboardIcon} alt="DashboardIcon" />
                 </span>
                 <span class="side-text">Dashboard</span>
               </a>
@@ -89,7 +107,7 @@ const Broker = () => {
                 data-bs-target="#survey"
               >
                 <span class="sidebar_icon me-2">
-                  <img src="assets/img/sidemenu/survey-icon.svg" alt="icon" />
+                  <img src={SurveyIcon} alt="SurveyIcon" />
                 </span>
                 <span class="side-text">Survey Management</span>
               </a>
@@ -116,7 +134,7 @@ const Broker = () => {
                 data-bs-target="#admin"
               >
                 <span class="sidebar_icon me-2">
-                  <img src="assets/img/sidemenu/admin-icon.svg" alt="icon" />
+                  <img src={AdminIcon} alt="AdminIcon" />
                 </span>
                 <span class="side-text">Admin Management</span>
               </a>
@@ -177,7 +195,7 @@ const Broker = () => {
             <li>
               <a href="#">
                 <span class="sidebar_icon me-2">
-                  <img src="assets/img/sidemenu/feedback-icon.svg" alt="icon" />
+                  <img src={FeedbackIcon} alt="FeedbackIcon" />
                 </span>
                 <span class="side-text">Feedbacks</span>
               </a>
@@ -185,7 +203,7 @@ const Broker = () => {
             <li>
               <a href="#">
                 <span class="sidebar_icon me-2">
-                  <img src="assets/img/sidemenu/support-icon.svg" alt="icon" />
+                  <img src={SupportIcon} alt="SupportIcon" />
                 </span>
                 <span class="side-text">Support</span>
               </a>
@@ -193,7 +211,7 @@ const Broker = () => {
             <li>
               <a href="#">
                 <span class="sidebar_icon me-2">
-                  <img src="assets/img/sidemenu/setting-icon.svg" alt="icon" />
+                  <img src={SettingIcon} alt="SettingIcon" />
                 </span>
                 <span class="side-text">Settings</span>
               </a>
@@ -201,7 +219,7 @@ const Broker = () => {
             <li>
               <a href="#">
                 <span class="sidebar_icon me-2">
-                  <img src="assets/img/sidemenu/contact-icon.svg" alt="icon" />
+                  <img src={ContactIcon} alt="ContactIcon" />
                 </span>
                 <span class="side-text">Contact Us</span>
               </a>
@@ -209,7 +227,7 @@ const Broker = () => {
             <li>
               <a href="#">
                 <span class="sidebar_icon me-2">
-                  <img src="assets/img/sidemenu/logout-icon.svg" alt="icon" />
+                  <img src={LogoutIcon} alt="LogoutIcon" />
                 </span>
                 <span class="side-text">Logout</span>
               </a>
